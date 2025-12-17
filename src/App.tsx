@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { User, Loader2, RefreshCw, Trash2, ArrowUpDown, Search, UserPlus, MoreHorizontal, ChevronLeft, ChevronRight, Lock, Eye, EyeOff, AlertCircle } from 'lucide-react';
 
-const API_URL = 'http://localhost:3000/api/users';
+const API_URL = 'https://portal-nexion.fly.dev/api/users';
 
 // Credenciais fixas
 const VALID_EMAIL = 'jeffinbala.29@gmail.com';
